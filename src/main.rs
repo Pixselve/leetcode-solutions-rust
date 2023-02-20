@@ -6,6 +6,7 @@ mod roman_to_integer;
 mod longest_common_prefix;
 mod valid_parentheses;
 mod palindrome_number;
+mod merge_two_sorted_lists;
 
 fn main() {
 
