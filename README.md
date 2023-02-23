@@ -14,4 +14,5 @@ This is my attempts at solving LeetCode problems in Rust.
 | 26. Remove Duplicates from Sorted Array           | [remove_duplicates_from_sorted_array.rs](src/remove_duplicates_from_sorted_array.rs)                           | 0 ms    | 2.4 MB |
 | 27. Remove Element                                | [remove_element.rs](src/remove_element.rs)                                                                     | 0 ms    | 2.1 MB |
 | 35. Search Insert Position                        | [search_insert_position.rs](src/search_insert_position.rs)                                                     | 1 ms    | 2.1 MB |
+| 58. Length of Last Word                           | [length_of_last_word.rs](src/length_of_last_word.rs)                                                           | 0 ms    | 2 MB   |
 | 2037. Minimum Number of Moves to Seat Everyone    | [src/minimum_number_of_moves_to_seat_everyone.rs](src/minimum_number_of_moves_to_seat_everyone.rs)             | 4 ms    | 2.2 MB |
