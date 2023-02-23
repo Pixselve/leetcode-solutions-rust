@@ -12,6 +12,4 @@ mod remove_element;
 mod search_insert_position;
 mod length_of_last_word;
 
-fn main() {
-
-}
+fn main() {}

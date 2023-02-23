@@ -1,4 +1,3 @@
-
 struct Solution {}
 
 impl Solution {
@@ -6,16 +5,15 @@ impl Solution {
         let mut parentheses_stack: Vec<u8> = vec![];
 
 
-
         for character in s.chars() {
             match character {
-                '{' => {parentheses_stack.push(0)}
-                '(' => {parentheses_stack.push(1)}
-                '[' => {parentheses_stack.push(2)}
+                '{' => { parentheses_stack.push(0) }
+                '(' => { parentheses_stack.push(1) }
+                '[' => { parentheses_stack.push(2) }
 
-                '}' => {if parentheses_stack.last().unwrap_or(&3).eq(&0) {parentheses_stack.pop();} else {return false}}
-                ')' => {if parentheses_stack.last().unwrap_or(&3).eq(&1) {parentheses_stack.pop();} else {return false}}
-                ']' => {if parentheses_stack.last().unwrap_or(&3).eq(&2) {parentheses_stack.pop();} else {return false}}
+                '}' => { if parentheses_stack.last().unwrap_or(&3).eq(&0) { parentheses_stack.pop(); } else { return false; } }
+                ')' => { if parentheses_stack.last().unwrap_or(&3).eq(&1) { parentheses_stack.pop(); } else { return false; } }
+                ']' => { if parentheses_stack.last().unwrap_or(&3).eq(&2) { parentheses_stack.pop(); } else { return false; } }
                 _ => {}
             }
         }

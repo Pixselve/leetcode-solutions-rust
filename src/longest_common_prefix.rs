@@ -34,7 +34,7 @@ mod tests {
             Solution::longest_common_prefix(vec![
                 String::from("flower"),
                 String::from("flow"),
-                String::from("flight")
+                String::from("flight"),
             ]),
             "fl"
         );
@@ -42,7 +42,7 @@ mod tests {
             Solution::longest_common_prefix(vec![
                 String::from("dog"),
                 String::from("racecar"),
-                String::from("car")
+                String::from("car"),
             ]),
             ""
         );
@@ -50,7 +50,7 @@ mod tests {
             Solution::longest_common_prefix(vec![
                 String::from("a"),
                 String::from("a"),
-                String::from("a")
+                String::from("a"),
             ]),
             "a"
         );
@@ -58,7 +58,7 @@ mod tests {
             Solution::longest_common_prefix(vec![
                 String::from("ab"),
                 String::from("ab"),
-                String::from("ab")
+                String::from("ab"),
             ]),
             "ab"
         );
@@ -66,7 +66,7 @@ mod tests {
             Solution::longest_common_prefix(vec![
                 String::from("ab"),
                 String::from("a"),
-                String::from("ab")
+                String::from("ab"),
             ]),
             "a"
         );
@@ -74,7 +74,7 @@ mod tests {
             Solution::longest_common_prefix(vec![
                 String::from("ab"),
                 String::from("ac"),
-                String::from("ab")
+                String::from("ab"),
             ]),
             "a"
         );

@@ -25,6 +25,7 @@ mod tests {
     fn test_1() {
         assert_eq!(Solution::min_moves_to_seat(vec![3, 1, 5], vec![2, 7, 4]), 4);
     }
+
     #[test]
     fn test_2() {
         assert_eq!(
@@ -32,6 +33,7 @@ mod tests {
             7
         );
     }
+
     #[test]
     fn test_3() {
         assert_eq!(

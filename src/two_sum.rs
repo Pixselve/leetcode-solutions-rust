@@ -43,8 +43,9 @@ mod tests {
     fn test_4() {
         assert_eq!(two_sum(vec![-1, -2, -3, -4, -5], -8), vec![2, 4]);
     }
+
     #[test]
     fn test_5() {
-        assert_eq!(two_sum(vec![2,1,9,4,4,56,90,3], 8), vec![3, 4]);
+        assert_eq!(two_sum(vec![2, 1, 9, 4, 4, 56, 90, 3], 8), vec![3, 4]);
     }
 }

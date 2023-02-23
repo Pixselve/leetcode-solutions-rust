@@ -1,7 +1,7 @@
-struct Solution {}
-
 use std::cmp::max;
 use std::collections::HashSet;
+
+struct Solution {}
 
 impl Solution {
     /// Given a string s, find the length of the longest substring without repeating characters.
@@ -15,7 +15,6 @@ impl Solution {
             if characters.contains(&char_at_j) {
                 characters.remove(&s.chars().nth(i).unwrap());
                 i += 1;
-
             } else {
                 j += 1;
                 characters.insert(char_at_j);
@@ -25,7 +24,6 @@ impl Solution {
         return count as i32;
     }
 }
-
 
 
 #[cfg(test)]
