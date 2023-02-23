@@ -11,5 +11,6 @@ mod remove_duplicates_from_sorted_array;
 mod remove_element;
 mod search_insert_position;
 mod length_of_last_word;
+mod plus_one;
 
 fn main() {}
