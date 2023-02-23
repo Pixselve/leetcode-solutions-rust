@@ -11,5 +11,6 @@ This is my attempts at solving LeetCode problems in Rust.
 | 14. Longest Common Prefix                         | [src/longest_common_prefix.rs](src/longest_common_prefix.rs)                                                   | 0 ms    | 2.1 MB |
 | 20. Valid Parentheses                             | [src/valid_parentheses.rs](src/valid_parentheses.rs)                                                           | 0 ms    | 2 MB   |
 | 21. Merge Two Sorted Lists                        | [merge_two_sorted_lists.rs](src/merge_two_sorted_lists.rs)                                                     | 0 ms    | 2 MB   |
-| 26. Remove Duplicates from Sorted Array           | [remove_duplicates_from_sorted_array.rs](src/remove_duplicates_from_sorted_array.rs)                           | 0ms     | 2.4 MB |
+| 26. Remove Duplicates from Sorted Array           | [remove_duplicates_from_sorted_array.rs](src/remove_duplicates_from_sorted_array.rs)                           | 0 ms    | 2.4 MB |
+| 27. Remove Element                                | [remove_element.rs](src/remove_element.rs)                                                                     | 0 ms    | 2.1 MB |
 | 2037. Minimum Number of Moves to Seat Everyone    | [src/minimum_number_of_moves_to_seat_everyone.rs](src/minimum_number_of_moves_to_seat_everyone.rs)             | 4 ms    | 2.2 MB |

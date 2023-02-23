@@ -8,6 +8,7 @@ mod valid_parentheses;
 mod palindrome_number;
 mod merge_two_sorted_lists;
 mod remove_duplicates_from_sorted_array;
+mod remove_element;
 
 fn main() {
 
