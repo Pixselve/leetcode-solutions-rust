@@ -14,5 +14,6 @@ mod length_of_last_word;
 mod plus_one;
 mod best_time_to_buy_and_sell_stock;
 mod add_binary;
+mod sqrtx;
 
 fn main() {}
