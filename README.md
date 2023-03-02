@@ -20,5 +20,6 @@ This is my attempts at solving LeetCode problems in Rust.
 | 69. Sqrt(x)                                       | [sqrtx.rs](src/sqrtx.rs)                                                                                       | 0 ms    | 2.6 MB |
 | 70. Climbing Stairs                               | [climbing_stairs.rs](src/climbing_stairs.rs)                                                                   | 1 ms    | 2.1 MB |
 | 83. Remove Duplicates from Sorted List            | [remove_duplicates_from_sorted_list.rs](src/remove_duplicates_from_sorted_list.rs)                             | 3 ms    | 2.4 MB |
+| 88. Merge Sorted Array                            | [merge_sorted_array.rs](src/merge_sorted_array.rs)                                                             | 1 ms    | 2 MB   |
 | 121. Best Time to Buy and Sell Stock              | [best_time_to_buy_and_sell_stock.rs](src/best_time_to_buy_and_sell_stock.rs)                                   | 8 ms    | 3 MB   |
 | 2037. Minimum Number of Moves to Seat Everyone    | [src/minimum_number_of_moves_to_seat_everyone.rs](src/minimum_number_of_moves_to_seat_everyone.rs)             | 4 ms    | 2.2 MB |
